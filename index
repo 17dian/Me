@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <link rel="stylesheet" type="text/css" href="box.css">
+</head>
+
+<body>
+    <div class="standard">
+        <p class="standard2">
+            盒子的总宽度／高度＝width/height+padding+border+margin
+        </p>
+    </div>
+    <hr>
+    <div class="odd">
+        <p class="odd2">
+            盒子的总宽度／高度＝width/height+margin
+            <br> width/height＝内容区宽度和高度＋padding+border
+        </p>
+    </div>
+    <hr>
+    <div class="new">
+        <div id="oldbox" class="float">
+            <img src="http://travel.tianya.cn/photo/jd/fj-chengs-332/fj-chengs-332a.jpg" width="250px" height="150px">
+        </div>
+        <div class="float" id="box2">
+            编者按：党的十八大以来，习近平总书记高瞻远瞩，统揽全局，深思熟虑，提出了治国理政的新治国理政的新治国理政的新思想、新理念、新战略，并从我国经济发展的阶段性特征出发，形成了具有重大指导性、前瞻性、针对性的经济工作系列论述。两会前夕，人民网记者通开局之年，主动打好决胜仗，赢得全年开局红赢得全年开局红。
+        </div>
+        <ol class="float" id="box3">
+            <li class="a1"> 编者按：党的十八大以来，习近平总书记高瞻远瞩，统揽全局，深思熟虑，提念、新战略，开局之年，主动</li>
+            <li class="a2">并从我国经济发展的阶段性特征出发，形成了具有重大指导性、前瞻性、针对性的经济工作系列论述。两会前基等形式，</li>
+            <li class="a3"> 撰写并刊登8篇深度报道，充分反映全国各地干部群众全面学习领会、贯彻落实习近平经济工作系列考和实践、建的红。</li>
+        </ol>
+        <ul class="float" id="box4">
+            <li class="a4"> 编者按：党的十八大以来，习近平总书记高瞻远瞩，统揽全局，深思熟虑，提念、新战略，开局之年，主动</li>
+            <li class="a5">并从我国经济发展的阶段性特征出发，形成了具有重大指导性、前瞻性、针对性的经济工作系列论述。两会前基等形式，</li>
+            <li class="a6"> 撰写并刊登8篇深度报道，充分反映全国各地干部群众全面学习领会、贯彻落实习近平经济工作系列考和实践、建的红。</li>
+        </ul>
+    </div>
+    <hr>
+</body>
+
+</html>
